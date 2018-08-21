@@ -1,0 +1,73 @@
+.active {
+	/*background: #444!important;*/
+	color: #CD5C5C!important;
+}
+
+.load_more_bar {
+	width: 100%;
+	padding: 10px;
+	background: #03a9f4;
+	text-align: center;
+	/*position: fixed;*/
+}
+
+.dropdown-list {
+	color: #333;
+}
+
+.dropdown-list li a:hover{
+	background-color: #ddd!important;
+	cursor: pointer;
+}
+
+.preview {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    max-width: 200px; /* Set a small width */
+    max-height: 200px;
+    /*left: 0;*/
+}
+
+.displayImage {
+	width: 100%;
+	background: white;
+   position: relative;
+   z-index: 1000;
+}
+
+.btn-pull {
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+/* Add a hover effect (blue shadow) */
+.preview:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+.isMe {
+	color: #2e86c1;
+}
